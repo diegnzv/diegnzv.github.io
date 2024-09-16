@@ -18,3 +18,15 @@ body {
 .navbar-brand{
     width: 100px;
   }
+
+.cv-image{
+    border-radius: 25%;
+    width: 150px;
+    height: 200px;
+    border: solid, #ffff;
+    filter:grayscale(100%)
+}
+
+img:hover{
+    filter:grayscale(0%)
+}
