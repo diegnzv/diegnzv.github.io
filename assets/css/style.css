@@ -6,17 +6,26 @@
 
 body {
     font-family: "Raleway", sans-serif;
+    background-image: url(../img/fondocv.jpg);
+    background-repeat: no-repeat;
+
   }
 
 #Hero-Section {
-    background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
   }
 #Educacion{
-  background-color: antiquewhite;
+  background-color: rgb(7, 1, 12);
+  color:white;
+  border-radius:48%;
+}
 
+#Portafolio{
+  background-color: rgb(7, 1, 12);
+  border-radius:10%;
+  color:white;
 }
 
 .navbar-brand{
